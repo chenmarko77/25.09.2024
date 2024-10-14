@@ -130,12 +130,52 @@
 
 
  // TASK3
-let min = Number(prompt('Enter min number')) 
-let max = Number(prompt('Enter max number')) 
-let sum = 0 
-for (let index = min; index <= max; index++){ 
-   if (index % 2 == 0){ 
-    sum=sum+index 
-   } 
-} 
-alert(`Sum of odd numbers in range from ${min} till ${max} = ${sum}`)
+// let min = Number(prompt('Enter min number')) 
+// let max = Number(prompt('Enter max number')) 
+// let sum = 0 
+// for (let index = min; index <= max; index++){ 
+//    if (index % 2 == 0){ 
+//     sum=sum+index 
+//    } 
+// } 
+// alert(`Sum of odd numbers in range from ${min} till ${max} = ${sum}`)
+
+
+
+    // const num=Number([Math.floor(Math.random()*5+1)]) 
+// console.log(num); 
+// if (num==1){ 
+//     alert(`Random number is 1`) 
+// }  
+// else if (num==2){ 
+//     alert(`Random number is 2`) 
+// }  
+// else if (num==3){ 
+//     alert(`Random number is 3`) 
+// }  
+// else if (num==4){ 
+//     alert(`Random number is 4`) 
+// }  
+// else { 
+//     alert(`Random number is 5`) 
+// }  
+ 
+ 
+// let lang = String(prompt('Write your language: en de ua fr')) 
+// switch (lang) { 
+//     case 'en': 
+//         lang = 'You selected English'; 
+//         break; 
+//     case 'de': 
+//         lang = 'You selected Deutsch'; 
+//         break; 
+//     case 'ua': 
+//         lang = 'You selected Ukrainian'; 
+//         break; 
+//     case 'fr': 
+//         lang = 'You selected French'; 
+//         break; 
+//     default: 
+//         console.log('Invalid subscription type'); 
+//     } 
+//     console.log(lang);
